@@ -193,6 +193,43 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+	.gamelist{
+		spacing: 0px;
+
+	}
+	.gamelist li{
+		spacing: 0px;
+
+	}
+
+	.gplay img{
+		width:8em;
+	}
+
+	.gplay a{
+
+		border-bottom: none;
+	}
+	.gplay{
+
+	}
+	.appstore img{
+		visibility: hidden;
+		width:7em;
+	}
+
+	.appstore a{
+		border-bottom: none;
+	}
+
+
+	.impressum{
+
+		text-align: left;
+		padding: 4em 4em 4em 4em;
+
+	}
+
 	hr {
 		border: 0;
 		border-top: solid 1px #dad9d9;
@@ -1853,7 +1890,7 @@ input, select, textarea {
 
 		.box.style1 {
 			background: #fff;
-			padding: 3em;
+			padding: 2em 3em 0em 3em;
 		}
 
 			.box.style1 .image {
@@ -1890,8 +1927,8 @@ input, select, textarea {
 				padding-left: 3em;
 			}
 
-			.box.style1.right.ishipit img{
-				background-color: red;
+			.box.style1.right.ishipit .image{
+				background: #1a00ff;
 			}
 
 			.box.style1.left .image {

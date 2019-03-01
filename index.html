@@ -6,11 +6,13 @@
 -->
 <html>
 	<head>
-		<title>Overflow by HTML5 UP</title>
+		<title>DogTag Games</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+		<link rel="shortcut icon" href="https://i.imgur.com/n4QmjHM.png" type="image/x-icon">
+    <link rel="icon" href="https://i.imgur.com/n4QmjHM.png" type="image/x-icon">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -29,28 +31,46 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>Über uns...</h2>
+					<h2>Wer ist DogTag Games?</h2>
 				</header>
-				<p>...oder über micht.<br />
-				Ich studiere Medieninformatik und entwickle nebenbei<br />
-				immer wieder das ein oder andere Spiel. <br> <br>
-				Die "Revenge of the Fly" - Titel wurden von mir alleine entwickelt.<br />
-				Das Spiel "IShipIt - Schiffe versenken" entstand zusammen mit<br>
-				einere Gruppe im Studium im Rahmen eines Projekts.
+				<p>
+					Ich bin Simon, 20 Jahre alt und studiere Medieninformatik.<br>
+					Mein erstes Spiel (Revenge of the Fly - Classic) habe ich als GFS im Gymansium entwickelt.
+					<br>
+					Seitdem habe ich zwei weitere <a href="#first" class="scrolly">Spiele</a> veröffentlicht.
+					<br><br>
+
+					Die beiden "Revenge of the Fly" - Titel wurden von mir alleine entwickelt.<br />
+					Das Spiel "IShipIt - Schiffe versenken" entstand im Studium im Rahmen eines Gruppenprojekts<br>
+					und wurde von mir auf Smartphones portiert.
 				</p>
+
 				<footer>
 					<a href="#first" class="button style2 scrolly">zu den Spielen:</a>
 				</footer>
 			</section>
 
 		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
+			<article id="first" class="container box style1 right ishipit">
 				<a href="#" class="image fit"><img class="ishipitpic" src="images/pic01.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>IShipIt - Schiffe versenken</h2>
 					</header>
-					<p>Das neueste Spiel, Schiffe versenken lokal oder online gegen Freunde.</p>
+					<p>Spiele Schiffe versenken lokal gegen einen Bot oder im Multiplayer gegen Freunde.</p>
+
+					<div class="gplay">
+						<a href='https://play.google.com/store/apps/details?id=de.dogtaggames.IShipIt'>
+							<img alt='Jetzt bei Google Play' src='./images/gplay.png'/>
+						</a>
+					</div>
+					<!-- AppStore
+					<div class="appstore">
+						<a href='#'>
+							<img alt='noch nicht im AppStore' src='./images/appstore.svg'/>
+						</a>
+					</div>
+					-->
 				</div>
 			</article>
 
@@ -61,23 +81,53 @@
 					<header>
 						<h2>Revenge of the Fly</h2>
 					</header>
-					<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+					<p>Das Remake des Fliegenspiels, die Fliegen rächen sich an den Spinnen!<br>
+						Kämpfe um den Highscore"</p>
+
+					<div class="gplay">
+						<a href='https://play.google.com/store/apps/details?id=com.SimonGames.RotFly'>
+							<img alt='Jetzt bei Google Play' src='./images/gplay.png'/>
+						</a>
+					</div>
+					<!-- AppStore
+					<div class="appstore">
+						<a href='#'>
+							<img alt='noch nicht im AppStore' src='./images/appstore.svg'/>
+						</a>
+					</div>
+					-->
 				</div>
 			</article>
 
 			<!-- Feature 3 -->
-				<article class="container box style1 left">
-					<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+				<article class="container box style1 right">
+					<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 					<div class="inner">
 						<header>
-							<h2>Mollis posuere<br />
-							lectus lacus</h2>
+							<h2>Revenge of the Fly - Classic</h2>
 						</header>
-						<p>Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper. Etiam egestas scelerisque ac duis magna lorem ipsum dolor.</p>
+						<p>Das original! Entstanden als Informatik GFS im Gymnasium mit Greenfoot/Droitfoot.</p>
+
+						<div class="gplay">
+							<a href='https://play.google.com/store/apps/details?id=org.droidfoot.fliegenspiel'>
+								<img alt='Jetzt bei Google Play' src='./images/gplay.png'/>
+							</a>
+						</div>
+						<!-- AppStore
+						<div class="appstore">
+							<a href='#'>
+								<img alt='noch nicht im AppStore' src='./images/appstore.svg'/>
+							</a>
+						</div>
+						-->
 					</div>
 				</article>
 
+
+
 		<!-- Portfolio -->
+
+		<!--
 			<article class="container box style2">
 				<header>
 					<h2>Magnis parturient</h2>
@@ -101,6 +151,8 @@
 			</article>
 
 		<!-- Contact -->
+
+		<!--
 			<article class="container box style3">
 				<header>
 					<h2>Nisl sed ultricies</h2>
@@ -273,16 +325,19 @@
 
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://www.twitter.com/DogTagGame" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<!-- <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+				<!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+				<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<!-- <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
+				<li><a href="https://www.twitter.com/DogTagGame" class="icon fa-google"><span class="label">Google Play</span></a></li>
+				<li><a href="mailto:dogtaggamesmail@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; DogTag Games. All rights reserved.</li><li><a href="./impressum.html">Impressum</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
