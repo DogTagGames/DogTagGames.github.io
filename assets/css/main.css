@@ -230,6 +230,20 @@ input, select, textarea {
 
 	}
 
+	.language{
+		position: absolute;
+    	top: 2px;
+    	right: 2px;
+	}
+
+	.language a{
+		border-bottom: none;
+	}
+
+	.language img{
+		width: 2em;
+	}
+
 
 
 	#nohighlight{
