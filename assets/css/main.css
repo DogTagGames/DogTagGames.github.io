@@ -230,6 +230,13 @@ input, select, textarea {
 
 	}
 
+	.infoPage{
+
+		text-align: center;
+		padding: 2em 2em 2em 2em;
+
+	}
+
 	.language{
 		position: absolute;
     	top: 2px;
@@ -830,6 +837,11 @@ input, select, textarea {
 		
 			}
 
+			.infoPage{
+				text-align: center;
+				padding: 4em 4em 4em 4em;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1082,6 +1094,13 @@ input, select, textarea {
 		
 			}
 
+			.infoPage{
+
+				text-align: center;
+				padding: 2em 2em 2em 2em;
+		
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1330,6 +1349,13 @@ input, select, textarea {
 			.impressum{
 
 				text-align: left;
+				padding: 2em 2em 2em 2em;
+		
+			}
+
+			.infoPage{
+
+				text-align: center;
 				padding: 2em 2em 2em 2em;
 		
 			}
